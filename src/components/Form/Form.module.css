@@ -1,0 +1,35 @@
+.input {
+    border-radius: var(--main-border-radius);
+    width: 85%;
+    margin: 0px auto 1rem;
+    display: block;
+
+}
+
+.button {
+    display: block;
+    border: none;
+    border-radius: var(--main-border-radius);
+    padding: 0.65rem;
+    margin: auto;
+    background-image: var(--gradient);
+    color: var(--main-text-color);
+    font-weight: 700;
+    box-shadow: 0 0 30px -5px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    line-height: initial;
+    width: 85%;
+    height: 38px;
+    margin-bottom: 1rem;
+}
+
+.button:hover {
+    color: var(--main-text-color);
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+}
+.form_search {
+    display: block;
+    margin: auto;
+}
